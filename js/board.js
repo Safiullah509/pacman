@@ -1,3 +1,5 @@
+/* Javascript code for the game board here */
+
 var BOARD_CANVAS_CONTEXT = null;
 
 function initBoard() { 

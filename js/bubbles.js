@@ -1,3 +1,5 @@
+/* Javscript code for the bubble appear in the game here */
+
 var BUBBLES_ARRAY = new Array();
 var BUBBLES_CANVAS_CONTEXT = null;
 var BUBBLES_X_START = 30;

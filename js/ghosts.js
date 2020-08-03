@@ -1,3 +1,5 @@
+/* Ghosts appear in the game code here */
+
 var GHOST_BLINKY_CANVAS_CONTEXT = null;
 var GHOST_BLINKY_POSITION_X = 276;
 var GHOST_BLINKY_POSITION_Y = 204;

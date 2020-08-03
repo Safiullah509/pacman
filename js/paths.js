@@ -1,3 +1,5 @@
+/* code for the Lines paths between dots */
+
 var PATHS = new Array();
 var PATHS_CANVAS_CONTEXT = null;
 

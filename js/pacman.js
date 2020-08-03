@@ -1,3 +1,5 @@
+/* Pacman movement eating dots etc code is here */
+
 var PACMAN_DIRECTION = 3;
 var PACMAN_DIRECTION_TRY = -1;
 var PACMAN_DIRECTION_TRY_TIMER = null;

@@ -1,3 +1,5 @@
+/* Javascript code for the fruits appear in the game here */
+
 var FRUITS_CANVAS_CONTEXT = null;
 var LEVEL_FRUITS_CANVAS_CONTEXT = null;
 var FRUITS_SIZE = 30;
