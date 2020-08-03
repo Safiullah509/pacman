@@ -23,13 +23,16 @@
 		<meta name="description" content="Pac-Man game written in HTML5 + CSS3 + jQuery with Canvas. This WebApp is a Responsive Web Design (RWD) website." />
 		<meta name="keywords" content="pacman, pac-man, pac-man online, pacman online, online, online games, games, free, puzzle, lucio panepinto, lucio, panepinto, html, html5, css, css3, javascript, jquery, rwd, responsive, responsive web design, responsive web, web design, canvas, draw" />
 
+		<!--Include styles css files-->
+
 		<link rel="stylesheet" type="text/css" href="css/pacman.css" />
 		<link rel="stylesheet" type="text/css" href="css/pacman-home.css" />
+
+		<!--Include Javascript code files-->
 	
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<!--<script type="text/javascript" src="js/jquery-mobile.js"></script>-->
 		<script type="text/javascript" src="js/jquery-buzz.js"></script>
-		
 		<script type="text/javascript" src="js/game.js"></script>
 		<script type="text/javascript" src="js/tools.js"></script>
 		<script type="text/javascript" src="js/board.js"></script>
@@ -93,9 +96,7 @@
 					}
 				});
 				
-				$(".github,.putchu").click(function(e) { 
-					e.stopPropagation();
-				});
+
 				
 				$("#home").on("click touchstart", function(e) { 
 					if ( $('#help').css("display") === "none") { 
@@ -181,9 +182,12 @@
 			});
 		</script>
 	
-		<title>Pac-Man</title>
+		<title>Pac-Man</title> <!--Page title at the top-->
 	</head>
-		
+	<!-- Head end here -->
+
+
+	<!--Body starts here -->
 	<body>
 	
 		<div id="sound"></div>
@@ -200,7 +204,9 @@
 				</tbody>
 			</table>
 		</div>
-	
+
+	 <!-- Home Page display code -->
+
 		<div id="home">
 			<canvas id="canvas-home-title-pacman"></canvas>
 			<div id="presentation">
@@ -213,6 +219,8 @@
 			</div>
 			<canvas id="trailer"></canvas>
 		</div>
+
+		<!-- Code for the Game board page of Pacman-->
 	
 		<div id="panel">
 			<h1>Pac-Man</h1>
@@ -238,8 +246,9 @@
 				<div id="control-left"></div>
 				<div id="control-right"></div>
 			</div>
-			<canvas id="canvas-lifes"></canvas>
-			<canvas id="canvas-level-fruits"></canvas>
+			<!--///////////////////////////////////////////////////-->
+			<canvas id="canvas-lifes"></canvas> <!-- shows pacman lifes-->
+			<canvas id="canvas-level-fruits"></canvas><!-- shows level Fruits -->
 			<div id="message"></div>
 			<a class="sound" href="javascript:void(0);" data-sound="on"><img src="img/sound-on.png" alt="" border="0"></a>
 		</div>
